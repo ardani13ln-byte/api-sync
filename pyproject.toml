@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-sync"
+version = "1.0.0"
+description = "Zero-dependency REST client with retries, pagination and idempotency"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["api", "rest", "http", "retry", "backoff", "pagination", "idempotency", "webhooks", "integration"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ardani13ln-byte/api-sync"
+Issues = "https://github.com/ardani13ln-byte/api-sync/issues"
+
+[tool.setuptools]
+packages = ["apisync"]
